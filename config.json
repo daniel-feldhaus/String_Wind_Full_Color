@@ -1,0 +1,10 @@
+{
+    "string_colors": [[255,0,0],[0,255,0],[0,0,255],[0,0,0]],
+    "background_color": [255,255,255],
+    "pin_count": 250,
+    "pin_radius" : 0.9,
+    "step_count" : 5000,
+    "overlap_modifier" : 0.8,
+    "min_pin_separation" : 10,
+    "image_path": "Images/vg.png"
+}
