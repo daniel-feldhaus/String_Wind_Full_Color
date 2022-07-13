@@ -1,6 +1,6 @@
 CC := g++
 CFLAGS := -g -O2 -Wall
-POSTFLAGS := -fopenmp -lX11 -lpng
+POSTFLAGS := -fopenmp -lX11 -lpng -lm -lpthread
 
 
 string_wind : string_wind.o image_manipulation.o path_gen.o 

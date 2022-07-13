@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul 13 09:57:33 2022
+# Make data base, printed on Wed Jul 13 10:17:02 2022
 
 # Variables
 
@@ -93,7 +93,7 @@ XDG_SESSION_TYPE = x11
 # environment
 SESSION_MANAGER = local/Dannys-Thinkpad:@/tmp/.ICE-unix/1570,unix/Dannys-Thinkpad:/tmp/.ICE-unix/1570
 # makefile (from 'Makefile', line 3)
-POSTFLAGS := -fopenmp -lX11 -lpng
+POSTFLAGS := -fopenmp -lX11 -lpng -lm -lpthread
 # automatic
 *F = $(notdir $*)
 # environment
@@ -252,7 +252,7 @@ point.h:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-02 12:12:13.501802695
+#  Last modified 2022-07-13 10:17:00.057274242
 #  File has been updated.
 #  Successfully updated.
 
@@ -281,6 +281,7 @@ clean_images:
 image_manipulation.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 string_wind.o: string_wind.cpp path_gen.h image_manipulation.h
@@ -292,7 +293,6 @@ string_wind.o: string_wind.cpp path_gen.h image_manipulation.h
 
 # Not a target:
 .DEFAULT:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -356,6 +356,6 @@ image_manipulation.o: image_manipulation.cpp image_manipulation.h defs.h color.h
 # strcache performance: lookups = 63 / hit rate = 49%
 # hash-table stats:
 # Load=32/8192=0%, Rehash=0, Collisions=0/63=0%
-# Finished Make data base on Wed Jul 13 09:57:33 2022
+# Finished Make data base on Wed Jul 13 10:17:02 2022
 
  

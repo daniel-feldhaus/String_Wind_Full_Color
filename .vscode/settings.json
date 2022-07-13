@@ -4,5 +4,12 @@
         "cmath": "cpp",
         "ostream": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/danny/Documents/Prog/String_Wind-5",
+            "binaryPath": "/home/danny/Documents/Prog/String_Wind-5/string_wind",
+            "binaryArgs": []
+        }
+    ]
 }

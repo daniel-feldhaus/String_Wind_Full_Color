@@ -1,8 +1,5 @@
-make --dry-run --always-make --keep-going --print-directory
+make string_wind --dry-run --keep-going --print-directory
 make: Entering directory '/home/danny/Documents/Prog/String_Wind-5'
-g++ -g -O2 -Wall -c string_wind.cpp -fopenmp -lX11 -lpng
-g++ -g -O2 -Wall -c image_manipulation.cpp -fopenmp -lX11 -lpng
-g++ -g -O2 -Wall -c path_gen.cpp -fopenmp -lX11 -lpng
-g++ -g -O2 -Wall -o string_wind image_manipulation.o path_gen.o string_wind.o   -fopenmp -lX11 -lpng
+make: 'string_wind' is up to date.
 make: Leaving directory '/home/danny/Documents/Prog/String_Wind-5'
  
